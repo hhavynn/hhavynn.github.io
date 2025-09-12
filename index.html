@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name — Portfolio</title>
+  <meta name="description" content="Math-CS @ UCSD — projects, resume, contact." />
+  <link rel="icon" href="favicon.ico" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-neutral-50 text-neutral-900">
+  <header class="max-w-5xl mx-auto px-4 py-8 flex items-center justify-between">
+    <h1 class="text-xl font-semibold">Havyn Nguyen</h1>
+    <nav class="space-x-4">
+      <a href="#projects" class="hover:underline">Projects</a>
+      <a href="#about" class="hover:underline">About</a>
+      <a href="#contact" class="hover:underline">Contact</a>
+    </nav>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-4">
+    <section class="py-16">
+      <h2 class="text-4xl font-bold">Hi, I’m Havyn 👋</h2>
+      <p class="mt-4 max-w-2xl">Math–CS @ UCSD. I build data/ML and web projects. Currently exploring React, Vite, Tailwind, and AWS.</p>
+      <div class="mt-6 flex gap-3">
+        <a class="px-4 py-2 rounded-lg bg-black text-white" href="resume.pdf">Resume</a>
+        <a class="px-4 py-2 rounded-lg border" href="https://github.com/YOUR_GH_USERNAME">GitHub</a>
+      </div>
+    </section>
+
+    <section id="projects" class="py-12">
+      <h3 class="text-2xl font-semibold">Projects</h3>
+      <div class="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <article class="p-4 rounded-xl border">
+          <h4 class="font-medium">VSA Website</h4>
+          <p class="text-sm mt-2">React/TypeScript + Supabase. Event check-in, points leaderboard.</p>
+          <a class="text-sm mt-3 inline-block underline" href="#">Code →</a>
+        </article>
+        <!-- Add more cards -->
+      </div>
+    </section>
+
+    <section id="about" class="py-12">
+      <h3 class="text-2xl font-semibold">About</h3>
+      <p class="mt-2 max-w-2xl">Short bio to implement.</p>
+    </section>
+
+    <section id="contact" class="py-12">
+      <h3 class="text-2xl font-semibold">Contact</h3>
+      <p class="mt-2">Email: havynnguyen9@gmail.com · LinkedIn: /in/havynnguyen</p>
+    </section>
+  </main>
+
+  <footer class="py-8 text-center text-sm text-neutral-500">© <span id="y"></span> Havyn Nguyen</footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
