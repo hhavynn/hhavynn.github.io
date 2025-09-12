@@ -1,0 +1,27 @@
+HAVYN NGUYEN
+Math-Computer Science @ UCSD
+Email: havynnguyen9@gmail.com
+LinkedIn: /in/havynnguyen
+GitHub: hhavynn
+
+EDUCATION
+University of California, San Diego
+Bachelor of Science in Math-Computer Science
+Expected Graduation: [Year]
+
+TECHNICAL SKILLS
+- Programming Languages: JavaScript, Python, TypeScript, HTML/CSS
+- Frameworks: React, Vite, Tailwind CSS
+- Cloud: AWS
+- Tools: Git, GitHub
+
+PROJECTS
+VSA Website
+- React/TypeScript + Supabase
+- Event check-in system with points leaderboard
+- [Add more details about your projects]
+
+EXPERIENCE
+[Add your work experience, internships, etc.]
+
+[This is a placeholder - replace with your actual resume content]
