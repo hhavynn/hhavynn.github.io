@@ -6,7 +6,7 @@
     <title>Havyn Nguyen — Portfolio</title>
     <meta
       name="description"
-      content="Math-CS @ UCSD — Full-stack developer, research analyst, projects, resume, contact."
+      content="Math-CS @ UCSD — Software engineering intern, full-stack developer, projects, resume, contact."
     />
     <link rel="icon" href="favicon.ico" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -29,13 +29,11 @@
       <section class="py-16">
         <h2 class="text-4xl font-bold">Hi, I'm Havyn</h2>
         <p class="mt-4 max-w-2xl text-neutral-700">
-          B.S. Mathematics - Computer Science student at UC San Diego interested
-          in software engineering and backend system. I enjoy building practical
-          tools and applications, from REST APIs and data pipelines to
-          contributing to existing systems like CPython's IDLE codebase.
-          Currently seeking software engineering internship opportunities where
-          I can contribute to real-world products while continuing to grow as an
-          engineer!
+          B.S. Mathematics-Computer Science student at UC San Diego building
+          full-stack products, backend services, data pipelines, and developer
+          tools. I enjoy turning messy workflows into reliable software, from
+          AI-enabled bot infrastructure and REST APIs to production dashboards,
+          Chrome extensions, and campus platforms used by hundreds of members.
         </p>
         <div class="mt-6 flex flex-wrap gap-3">
           <a
@@ -62,144 +60,20 @@
       <section id="projects" class="py-12">
         <h3 class="text-2xl font-semibold">Projects</h3>
         <div class="mt-6 grid sm:grid-cols-1 lg:grid-cols-2 gap-6">
-          <article class="p-6 rounded-xl border bg-white shadow-sm">
-            <div class="flex justify-between items-start">
-              <h4 class="font-semibold text-lg">Web Analytics Pipeline</h4>
-              <span class="text-xs text-gray-500 whitespace-nowrap ml-2"
-                >Feb 2026</span
-              >
-            </div>
-            <p class="text-sm mt-3 text-gray-700">
-              End-to-end analytics pipeline (collector → ingestion → processing
-              → storage → reporting API → dashboard) converting browser events
-              into queryable product metrics. Client-side collector captures
-              pageviews, clicks, errors, and Web Vitals via sendBeacon/fetch.
-            </p>
-            <div class="mt-3 flex flex-wrap gap-2">
-              <span
-                class="px-2 py-1 bg-yellow-100 text-yellow-800 text-xs rounded"
-                >JavaScript</span
-              >
-              <span
-                class="px-2 py-1 bg-yellow-100 text-yellow-800 text-xs rounded"
-                >Node.js / Express</span
-              >
-              <span
-                class="px-2 py-1 bg-yellow-100 text-yellow-800 text-xs rounded"
-                >MySQL</span
-              >
-              <span
-                class="px-2 py-1 bg-yellow-100 text-yellow-800 text-xs rounded"
-                >REST APIs</span
-              >
-            </div>
-            <div class="mt-4">
-              <a
-                class="text-sm underline text-gray-600"
-                href="https://github.com/hhavynn"
-                target="_blank"
-                >Code →</a
-              >
-            </div>
-          </article>
-
-          <article class="p-6 rounded-xl border bg-white shadow-sm">
-            <div class="flex justify-between items-start">
-              <h4 class="font-semibold text-lg">Study Sessions API</h4>
-              <span class="text-xs text-gray-500 whitespace-nowrap ml-2"
-                >Mar 2026</span
-              >
-            </div>
-            <p class="text-sm mt-3 text-gray-700">
-              Express + PostgreSQL REST API for tracking study sessions with
-              full CRUD, course/date filtering, Docker Compose setup with health
-              checks, and a CI gate that builds the Docker image after 11 Jest +
-              Supertest integration tests pass.
-            </p>
-            <div class="mt-3 flex flex-wrap gap-2">
-              <span class="px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded"
-                >Node.js / Express</span
-              >
-              <span class="px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded"
-                >PostgreSQL</span
-              >
-              <span class="px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded"
-                >Docker</span
-              >
-              <span class="px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded"
-                >GitHub Actions</span
-              >
-              <span class="px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded"
-                >Jest</span
-              >
-            </div>
-            <div class="mt-4">
-              <a
-                class="text-sm underline text-gray-600"
-                href="https://github.com/hhavynn"
-                target="_blank"
-                >Code →</a
-              >
-            </div>
-          </article>
-
-          <article class="p-6 rounded-xl border bg-white shadow-sm">
-            <div class="flex justify-between items-start">
-              <h4 class="font-semibold text-lg">League of Legends Analysis</h4>
-              <span class="text-xs text-gray-500 whitespace-nowrap ml-2"
-                >Oct 2025</span
-              >
-            </div>
-            <p class="text-sm mt-3 text-gray-700">
-              ETL + modeling pipeline on Oracle's Elixir pro match data (10K+
-              records) evaluating how jungle gank priority affects objective
-              control and win probability. Ran hypothesis/permutation tests and
-              improved ROC-AUC from ~0.55 to ~0.85 with logistic regression and
-              random forest models.
-            </p>
-            <div class="mt-3 flex flex-wrap gap-2">
-              <span
-                class="px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded"
-                >Python</span
-              >
-              <span
-                class="px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded"
-                >pandas</span
-              >
-              <span
-                class="px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded"
-                >scikit-learn</span
-              >
-              <span
-                class="px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded"
-                >Plotly</span
-              >
-            </div>
-            <div class="mt-4">
-              <a
-                class="text-sm underline text-gray-600"
-                href="https://github.com/hhavynn"
-                target="_blank"
-                >Code →</a
-              >
-            </div>
-          </article>
-
-          <article class="p-6 rounded-xl border bg-white shadow-sm">
+          <article class="p-6 rounded-lg border bg-white shadow-sm">
             <div class="flex justify-between items-start">
               <h4 class="font-semibold text-lg">
-                VSA at UCSD — Full-Stack Data Platform
+                VSA at UCSD Website — Full-Stack Web Platform
               </h4>
               <span class="text-xs text-gray-500 whitespace-nowrap ml-2"
                 >May 2025</span
               >
             </div>
             <p class="text-sm mt-3 text-gray-700">
-              Full-stack platform for member registration, event sign-ins, and
-              point-based rewards supporting 300+ members. Mobile-first
-              React/TypeScript UI with Tailwind CSS, Supabase (PostgreSQL)
-              backend with auth-protected routes and Row Level Security,
-              deployed on Vercel.
+              Built a production React/TypeScript + Supabase platform for 600+
+              VSA members, supporting public pages and admin workflows for
+              events, attendance, points, content management, yearly
+              leaderboards, and house standings.
             </p>
             <div class="mt-3 flex flex-wrap gap-2">
               <span
@@ -212,15 +86,11 @@
               >
               <span
                 class="px-2 py-1 bg-green-100 text-green-800 text-xs rounded"
+                >PostgreSQL</span
+              >
+              <span
+                class="px-2 py-1 bg-green-100 text-green-800 text-xs rounded"
                 >Supabase</span
-              >
-              <span
-                class="px-2 py-1 bg-green-100 text-green-800 text-xs rounded"
-                >Tailwind CSS</span
-              >
-              <span
-                class="px-2 py-1 bg-green-100 text-green-800 text-xs rounded"
-                >Vercel</span
               >
             </div>
             <div class="mt-4 flex gap-3">
@@ -238,6 +108,135 @@
               >
             </div>
           </article>
+
+          <article class="p-6 rounded-lg border bg-white shadow-sm">
+            <div class="flex justify-between items-start">
+              <h4 class="font-semibold text-lg">Triton Fetch</h4>
+              <span class="text-xs text-gray-500 whitespace-nowrap ml-2"
+                >Apr 2026</span
+              >
+            </div>
+            <p class="text-sm mt-3 text-gray-700">
+              Chrome MV3 extension that captures authorized UCSD lecture HLS
+              and transcript resources, extracts Canvas/Kaltura metadata, and
+              sends downloads to a Python native messaging host powered by
+              yt-dlp.
+            </p>
+            <div class="mt-3 flex flex-wrap gap-2">
+              <span class="px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded"
+                >JavaScript</span
+              >
+              <span class="px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded"
+                >Python</span
+              >
+              <span class="px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded"
+                >Chrome APIs</span
+              >
+              <span class="px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded"
+                >yt-dlp</span
+              >
+            </div>
+            <div class="mt-4">
+              <a
+                class="text-sm underline text-gray-600"
+                href="https://github.com/hhavynn"
+                target="_blank"
+                >Code →</a
+              >
+            </div>
+          </article>
+
+          <article class="p-6 rounded-lg border bg-white shadow-sm">
+            <div class="flex justify-between items-start">
+              <h4 class="font-semibold text-lg">
+                Matcha Scout — AI Matcha Recommender
+              </h4>
+              <span class="text-xs text-gray-500 whitespace-nowrap ml-2"
+                >Jun 2026</span
+              >
+            </div>
+            <p class="text-sm mt-3 text-gray-700">
+              AI-powered recommendation app that converts drink reviews into
+              structured taste profiles and ranks matcha drinks by strength,
+              sweetness, creaminess, earthiness, and bitterness preferences.
+              Deployed with a Next.js frontend and FastAPI backend on AWS.
+            </p>
+            <div class="mt-3 flex flex-wrap gap-2">
+              <span
+                class="px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded"
+                >Next.js</span
+              >
+              <span
+                class="px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded"
+                >FastAPI</span
+              >
+              <span
+                class="px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded"
+                >AWS Lambda</span
+              >
+              <span
+                class="px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded"
+                >DynamoDB</span
+              >
+              <span
+                class="px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded"
+                >Docker</span
+              >
+            </div>
+            <div class="mt-4">
+              <a
+                class="text-sm underline text-gray-600"
+                href="https://github.com/hhavynn"
+                target="_blank"
+                >Code →</a
+              >
+            </div>
+          </article>
+
+          <article class="p-6 rounded-lg border bg-white shadow-sm">
+            <div class="flex justify-between items-start">
+              <h4 class="font-semibold text-lg">Study Sessions API</h4>
+              <span class="text-xs text-gray-500 whitespace-nowrap ml-2"
+                >Mar 2026</span
+              >
+            </div>
+            <p class="text-sm mt-3 text-gray-700">
+              Express + PostgreSQL REST API for tracking study sessions with
+              full CRUD, course/date filtering, Docker Compose health checks,
+              and a CI gate that builds the Docker image after Jest + Supertest
+              integration tests pass.
+            </p>
+            <div class="mt-3 flex flex-wrap gap-2">
+              <span
+                class="px-2 py-1 bg-yellow-100 text-yellow-800 text-xs rounded"
+                >Node.js / Express</span
+              >
+              <span
+                class="px-2 py-1 bg-yellow-100 text-yellow-800 text-xs rounded"
+                >PostgreSQL</span
+              >
+              <span
+                class="px-2 py-1 bg-yellow-100 text-yellow-800 text-xs rounded"
+                >Docker</span
+              >
+              <span
+                class="px-2 py-1 bg-yellow-100 text-yellow-800 text-xs rounded"
+                >GitHub Actions</span
+              >
+              <span
+                class="px-2 py-1 bg-yellow-100 text-yellow-800 text-xs rounded"
+                >Jest</span
+              >
+            </div>
+            <div class="mt-4">
+              <a
+                class="text-sm underline text-gray-600"
+                href="https://github.com/hhavynn"
+                target="_blank"
+                >Code →</a
+              >
+            </div>
+          </article>
         </div>
       </section>
 
@@ -247,9 +246,70 @@
         <div class="mt-6 space-y-6">
           <div class="border-l-2 border-neutral-200 pl-5">
             <div class="flex flex-wrap justify-between items-baseline gap-2">
-              <h4 class="font-semibold">Research Analyst — UCSD Chiba Lab</h4>
+              <h4 class="font-semibold">
+                Incoming Engineering Intern — Kyocera International, Inc.
+              </h4>
               <span class="text-sm text-gray-500"
-                >May 2025 – Present · La Jolla, CA</span
+                >Jun 2026 – Sep 2026 · San Diego, CA</span
+              >
+            </div>
+            <p class="text-sm text-gray-500 mt-0.5">
+              Software engineering, manufacturing digitalization, Python, SQL
+            </p>
+            <ul
+              class="mt-2 text-sm text-gray-700 space-y-1 list-disc list-inside"
+            >
+              <li>
+                Developing Python/SQL workflows to clean, transform, and analyze
+                manufacturing datasets for production reporting, traceability,
+                and operational decision-making.
+              </li>
+              <li>
+                Building internal reporting tools and dashboards for production
+                status, process bottlenecks, and manufacturing data trends.
+              </li>
+            </ul>
+          </div>
+
+          <div class="border-l-2 border-neutral-200 pl-5">
+            <div class="flex flex-wrap justify-between items-baseline gap-2">
+              <h4 class="font-semibold">
+                Software Engineering Intern — AutomatiqGPT.ai
+              </h4>
+              <span class="text-sm text-gray-500"
+                >Apr 2026 – Jun 2026 · San Diego, CA</span
+              >
+            </div>
+            <p class="text-sm text-gray-500 mt-0.5">
+              Node.js, Express, React, Supabase, Anthropic/OpenAI API
+            </p>
+            <ul
+              class="mt-2 text-sm text-gray-700 space-y-1 list-disc list-inside"
+            >
+              <li>
+                Designed and shipped an in-memory agent registry that merged
+                static bot definitions with Supabase metadata across about 153
+                production bots.
+              </li>
+              <li>
+                Built provider routing for Claude through the Anthropic SDK
+                while preserving the existing OpenAI execution path.
+              </li>
+              <li>
+                Developed a Bot Builder REST API for generating, saving, and
+                approving bots with structured tool calls, Supabase persistence,
+                and Auth0 JWT authorization.
+              </li>
+            </ul>
+          </div>
+
+          <div class="border-l-2 border-neutral-200 pl-5">
+            <div class="flex flex-wrap justify-between items-baseline gap-2">
+              <h4 class="font-semibold">
+                Undergraduate Researcher — UCSD Chiba Lab
+              </h4>
+              <span class="text-sm text-gray-500"
+                >May 2025 – Feb 2026 · La Jolla, CA</span
               >
             </div>
             <p class="text-sm text-gray-500 mt-0.5">
@@ -259,12 +319,9 @@
               class="mt-2 text-sm text-gray-700 space-y-1 list-disc list-inside"
             >
               <li>
-                Built Python pipelines to ingest, clean, and transform auditory
-                + biometric time-series data for downstream analysis.
-              </li>
-              <li>
-                Created reusable scripts for feature extraction, QC, and
-                visualization to standardize analysis workflows across studies.
+                Built Python/pandas pipelines to clean and transform auditory
+                and biometric time-series datasets, improving readiness for
+                statistical analysis and research EDA.
               </li>
             </ul>
           </div>
@@ -295,16 +352,16 @@
           <div class="border-l-2 border-neutral-200 pl-5">
             <div class="flex flex-wrap justify-between items-baseline gap-2">
               <h4 class="font-semibold">
-                Social Lead — Association for Computing Machinery AI
+                Developer — Triton Web Developers
               </h4>
               <span class="text-sm text-gray-500"
-                >Sep 2025 – Present · La Jolla, CA</span
+                >Apr 2026 – Present · La Jolla, CA</span
               >
             </div>
             <ul class="mt-2 text-sm text-gray-700 list-disc list-inside">
               <li>
-                Host and coordinate AI-focused community events drawing 100+
-                students per quarter.
+                Selected as one of 12 members from a competitive applicant pool
+                to deliver web solutions for campus clients.
               </li>
             </ul>
           </div>
@@ -312,22 +369,36 @@
           <div class="border-l-2 border-neutral-200 pl-5">
             <div class="flex flex-wrap justify-between items-baseline gap-2">
               <h4 class="font-semibold">
-                Co-Events Coordinator — Vietnamese Student Association at UCSD
+                Co-President — Vietnamese Student Association at UCSD
               </h4>
               <span class="text-sm text-gray-500"
-                >May 2025 – Present · La Jolla, CA</span
+                >May 2026 – Present · La Jolla, CA</span
               >
             </div>
             <ul
               class="mt-2 text-sm text-gray-700 space-y-1 list-disc list-inside"
             >
               <li>
-                Managed website + analytics tools, enabling streamlined event
-                check-ins for 300+ members.
+                Lead executive board operations for a 600+ member cultural
+                organization, building on prior Co-Events Chair work across
+                major events, membership systems, and digital tools.
               </li>
+            </ul>
+          </div>
+
+          <div class="border-l-2 border-neutral-200 pl-5">
+            <div class="flex flex-wrap justify-between items-baseline gap-2">
+              <h4 class="font-semibold">
+                Social Lead — Association for Computing Machinery AI
+              </h4>
+              <span class="text-sm text-gray-500"
+                >Sep 2025 – May 2026 · La Jolla, CA</span
+              >
+            </div>
+            <ul class="mt-2 text-sm text-gray-700 list-disc list-inside">
               <li>
-                Supported event planning and digital engagement, improving
-                retention and participation.
+                Hosted and coordinated AI-focused community events drawing 100+
+                students per quarter.
               </li>
             </ul>
           </div>
@@ -345,18 +416,18 @@
                 <strong>University of California, San Diego</strong>
               </p>
               <p class="text-sm mb-1">
-                B.S. Mathematics-Computer Science · GPA: 3.33 / 4.0
+                B.S. Mathematics-Computer Science
               </p>
               <p class="text-sm text-gray-600 mb-3">Sep 2023 – Jun 2027</p>
               <p class="text-sm">
-                <strong>Relevant Courses:</strong> Data Structures & Algorithms,
-                Practice of Data Science, Recommender Systems & Web Mining,
-                Software Engineering, Online Database Analytics Applications,
-                Working with Large Code Bases
+                <strong>Relevant Courses:</strong> Software Engineering,
+                Advanced Data Structures, Design & Analysis of Algorithms,
+                Database Systems
               </p>
               <p class="text-sm mt-3">
-                <strong>Organizations:</strong> Association of Computing
-                Machinery, Vietnamese Student Association, Eclipse Analytics
+                <strong>Organizations:</strong> Triton Web Developers,
+                Vietnamese Student Association, Association for Computing
+                Machinery AI
               </p>
             </div>
 
@@ -381,8 +452,9 @@
                     Backend & Data
                   </p>
                   <p class="text-sm text-gray-600">
-                    Node.js, Express.js, REST APIs, PostgreSQL, MySQL, SQLite,
-                    Redis, Supabase, JWT, Docker, pytest, Jest
+                    Node.js, Express.js, FastAPI, REST APIs, PostgreSQL, MySQL,
+                    SQLite, Redis, Supabase, DynamoDB, JWT, OpenAPI,
+                    OpenTelemetry
                   </p>
                 </div>
                 <div>
@@ -390,8 +462,17 @@
                     Cloud & DevOps
                   </p>
                   <p class="text-sm text-gray-600">
-                    AWS (EC2, S3, RDS, Lambda, CloudWatch), Vercel, CI/CD,
-                    OpenTelemetry, OpenAPI
+                    AWS (EC2, S3, Lambda), Vercel, Docker, Kubernetes, CI/CD,
+                    pytest, Jest
+                  </p>
+                </div>
+                <div>
+                  <p class="text-sm font-medium text-gray-700">
+                    AI & Data
+                  </p>
+                  <p class="text-sm text-gray-600">
+                    Anthropic API, OpenAI API, pandas, Plotly, React Query,
+                    React Hook Form
                   </p>
                 </div>
               </div>
